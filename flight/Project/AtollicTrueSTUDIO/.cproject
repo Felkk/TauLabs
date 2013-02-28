@@ -16,7 +16,7 @@
 					<folderInfo id="com.atollic.truestudio.exe.debug.492531634." name="/" resourcePath="">
 						<toolChain id="com.atollic.truestudio.exe.debug.toolchain.1219407487" name="Atollic ARM Tools" resourceTypeBasedDiscovery="true" superClass="com.atollic.truestudio.exe.debug.toolchain">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.atollic.truestudio.exe.debug.toolchain.platform.906018" isAbstract="false" name="Debug platform" superClass="com.atollic.truestudio.exe.debug.toolchain.platform"/>
-							<builder buildPath="${workspace_loc:/ksu_revo/Debug}" id="com.atollic.truestudio.mbs.builder1.928981280" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="com.atollic.truestudio.mbs.builder1">
+							<builder buildPath="${workspace_loc:/flyingKSU/Debug}" id="com.atollic.truestudio.mbs.builder1.928981280" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="com.atollic.truestudio.mbs.builder1">
 								<outputEntries>
 									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Debug"/>
 									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Release"/>
@@ -179,7 +179,7 @@
 					<folderInfo id="com.atollic.truestudio.configuration.release.1057764424." name="/" resourcePath="">
 						<toolChain id="com.atollic.truestudio.exe.release.toolchain.521405100" name="Atollic ARM Tools" superClass="com.atollic.truestudio.exe.release.toolchain">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.atollic.truestudio.exe.release.toolchain.platform.1690939085" isAbstract="false" name="release platform" superClass="com.atollic.truestudio.exe.release.toolchain.platform"/>
-							<builder buildPath="${workspace_loc:/ksu_revo/Release}" id="com.atollic.truestudio.mbs.builder1.1821997277" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="com.atollic.truestudio.mbs.builder1"/>
+							<builder buildPath="${workspace_loc:/flyingKSU/Release}" id="com.atollic.truestudio.mbs.builder1.1821997277" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="com.atollic.truestudio.mbs.builder1"/>
 							<tool id="com.atollic.truestudio.exe.release.toolchain.as.1798523004" name="Assembler" superClass="com.atollic.truestudio.exe.release.toolchain.as">
 								<option id="com.atollic.truestudio.common_options.target.endianess.1435946838" name="Endianess" superClass="com.atollic.truestudio.common_options.target.endianess"/>
 								<option id="com.atollic.truestudio.common_options.target.mcpu.1776917231" name="Microcontroller" superClass="com.atollic.truestudio.common_options.target.mcpu" value="STM32F407VG" valueType="enumerated"/>
@@ -266,10 +266,10 @@
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="ksu_revo.com.atollic.truestudio.exe.1917952729" name="Executable" projectType="com.atollic.truestudio.exe"/>
+		<project id="flyingKSU.com.atollic.truestudio.exe.1917952729" name="Executable" projectType="com.atollic.truestudio.exe"/>
 	</storageModule>
 	<storageModule moduleId="refreshScope" versionNumber="1">
-		<resource resourceType="PROJECT" workspacePath="/ksu_revo"/>
+		<resource resourceType="PROJECT" workspacePath="/flyingKSU"/>
 	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
